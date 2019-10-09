@@ -2,7 +2,7 @@ const { merge, pipe, assoc, omit, __ } = require("ramda")
 const { getReactNativeVersion } = require("./lib/react-native-version")
 
 // We need this value here, as well as in our package.json.ejs template
-const REACT_NATIVE_GESTURE_HANDLER_VERSION = "^1.3.0"
+const REACT_NATIVE_GESTURE_HANDLER_VERSION = "^1.4.1"
 
 /**
  * Is Android installed?
